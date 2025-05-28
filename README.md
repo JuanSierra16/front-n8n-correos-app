@@ -15,4 +15,4 @@
 
 3. Accede a la aplicación en tu navegador en [http://localhost:3000](http://localhost:3000).
 
-> Asegúrate de tener Docker y Docker Compose instalados en tu máquina.
+> Asegúrate de tener Docker Desktop abierto o Docker y Docker Compose instalados en tu máquina.
