@@ -1,0 +1,10 @@
+services:
+  frontend:
+    image: n8n-correos-app-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: http://aquivaelenlacedelwebhook/api/emails
+    ports:
+      - "3000:80"
