@@ -3,8 +3,9 @@
 1. Clona este repositorio en tu máquina:
 
    ```sh
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/JuanSierra16/front-n8n-correos-app.git
    cd n8n-correos-app
+   npm install
    ```
 
 2. Construye y levanta el contenedor usando Docker Compose:
