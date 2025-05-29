@@ -1,12 +1,18 @@
-# React + Vite
+## Cómo ejecutar el proyecto en Docker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Clona este repositorio en tu máquina:
 
-Currently, two official plugins are available:
+   ```sh
+   git clone https://github.com/JuanSierra16/front-n8n-correos-app.git
+   cd n8n-correos-app
+   ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Construye y levanta el contenedor usando Docker Compose:
 
-## Expanding the ESLint configuration
+   ```sh
+   docker compose up --build
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Accede a la aplicación en tu navegador en [http://localhost:3000](http://localhost:3000).
+
+> Asegúrate de tener Docker Desktop abierto o Docker y Docker Compose instalados en tu máquina.
